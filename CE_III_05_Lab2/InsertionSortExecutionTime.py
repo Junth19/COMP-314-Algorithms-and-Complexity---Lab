@@ -4,7 +4,7 @@
 import random
 import time
 from InsertionSort import insertion_sort
-from InsertionSortPlot import plot_sorting_algorithm
+from CommonPlot import plot_sorting_algorithm
 
 def insertion_sort_time():
 
