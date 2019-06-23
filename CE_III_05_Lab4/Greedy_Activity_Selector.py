@@ -17,7 +17,7 @@ def GreedyActivitySelector(start, finish):
     print(activity)
 
 start = [1, 3, 0, 5, 8, 5]
-finish = [2, 4, 6, 7, 9, 9]
+finish = [2, 4, 6, 7, 9, 10]
 finish_sorted = sorted(zip(finish, start))
 #print(finish_sorted)
 finish, start = list(zip(*finish_sorted))
